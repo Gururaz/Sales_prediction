@@ -1,0 +1,26 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: postgres_sales_data
+    restart: unless-stopped
+    ports:
+      - "${PG_PORT}:5432"
+    environment:
+      POSTGRES_PASSWORD: ${PG_PASSWORD}
+      POSTGRES_DB: ${PG_DB}
+      POSTGRES_USER: ${PG_USER}
+    volumes:
+      # persistent database files
+      - pg_data:/var/lib/postgresql/data
+      # your CSVs accessible inside the container at /data
+      - ./sales_data:/data:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${PG_USER} -d ${PG_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+
+
+volumes:
+  pg_data:
