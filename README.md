@@ -140,8 +140,8 @@ This project is available under the MIT License.
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@Gururaz](https://github.com/your-username)
-- LinkedIn: [gururaj-horakeri-59b51485](https://linkedin.com/in/your-profile)
+- GitHub: [Gururaz](https://github.com/Gururaz)
+- LinkedIn: [Gururaj_Horakeri](https://linkedin.com/in/gururaj-horakeri-59b51485)
 
 ---
 
