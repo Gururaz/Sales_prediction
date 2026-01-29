@@ -139,7 +139,7 @@ This project is available under the MIT License.
 
 ## 👤 Author
 
-**Your Name**
+**Gururaj Shivayogi Horakeri**
 - GitHub: [Gururaz](https://github.com/Gururaz)
 - LinkedIn: [Gururaj_Horakeri](https://linkedin.com/in/gururaj-horakeri-59b51485)
 
